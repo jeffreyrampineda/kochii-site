@@ -6,7 +6,7 @@ import AboutUs from "../components/AboutUs";
 
 const AboutUsPage = () => (
   <Layout>
-    <SEO title="About Us" />
+    <SEO title="About Us" description="Everything you need to know about Kochii." />
     <AboutUs />
   </Layout>
 );

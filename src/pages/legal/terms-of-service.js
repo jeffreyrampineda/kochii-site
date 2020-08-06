@@ -5,7 +5,7 @@ import SEO from "../../components/SEO";
 
 const TermsOfServicePage = () => (
     <Layout>
-        <SEO title="Legal Information" />
+        <SEO title="Legal Information" description="Legal stuff you need to be aware of and agree to when you use Kochii." />
         <div class="jumbotron blue-gradient">
             <div class="text-white text-center pt-5 px-4">
                 <h1 class="display-4 font-weight-bold white-text pt-5 mb-2">Terms of Service</h1>

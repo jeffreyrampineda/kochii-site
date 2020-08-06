@@ -6,7 +6,7 @@ import Intro from "../components/Intro";
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Personal Inventory" />
+    <SEO title="Personal Inventory" description="Kochii assists and encourages individuals for a manageable meal preparation lifestyle." />
     <Intro />
   </Layout>
 );

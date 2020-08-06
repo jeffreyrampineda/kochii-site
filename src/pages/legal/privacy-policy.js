@@ -5,7 +5,7 @@ import SEO from "../../components/SEO";
 
 const PrivacyPolicyPage = () => (
     <Layout>
-        <SEO title="Privacy" />
+        <SEO title="Privacy" description="Read about what Kochii does to respect and protect your privacy." />
         <div class="jumbotron blue-gradient">
             <div class="text-white text-center pt-5 px-4">
                 <h1 class="display-4 font-weight-bold white-text pt-5 mb-2">Privacy Policy</h1>
