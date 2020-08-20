@@ -1,6 +1,7 @@
-import React from "react"
+import React from "react";
+import ContactForm from "./ContactForm";
 
-const Intro = props => {
+const Intro = (props) => {
   return (
     <React.Fragment>
       <header>
@@ -46,8 +47,8 @@ const Intro = props => {
                 <p class="grey-text">
                   Simplify your day to day life by letting Kochii assist you in
                   managing your pantry cabinets and cooking ingredients. The
-                  easy-to-use user interface allows even the most busiest
-                  individuals organize a part of their lifestyle entirely
+                  easy-to-use user interface allows even the busiest
+                  individuals to organize a part of their lifestyle entirely
                   online.
                 </p>
               </div>
@@ -57,7 +58,7 @@ const Intro = props => {
                 <i class="fas fa-clipboard-list fa-4x"></i>
                 <h4 class="my-4 font-weight-bold">Record</h4>
                 <p class="grey-text">
-                  Keep track of what you buy and use at a week-by-week basis and
+                  Keep track of what you buy and use on a week-by-week basis and
                   organize them using Kochii's simplified user interface.
                 </p>
               </div>
@@ -74,7 +75,7 @@ const Intro = props => {
                 <h4 class="my-4 font-weight-bold">Analyze</h4>
                 <p class="grey-text">
                   Examine a summary of your inventory's current and weekly
-                  state, and gain insights on your unforeseen behaviours.
+                  state, and gain insights on your unforeseen behaviors.
                 </p>
               </div>
             </div>
@@ -96,7 +97,7 @@ const Intro = props => {
                 </div>
                 <h4 class="my-4 font-weight-bold">Know what you have</h4>
                 <p class="grey-text">
-                  Kochii allows you easily find recipes online and will
+                  Kochii allows you to easily find recipes online and will
                   automatically inform you of the ingredients you currently have
                   and do not have.
                 </p>
@@ -256,56 +257,11 @@ const Intro = props => {
           <h3 class="mb-5 text-center">
             Get a hold of us. We’re always happy to talk!
           </h3>
-          <form class="grey-text" action="/contact" method="post">
-            <div class="md-form form-sm">
-              {" "}
-              <i class="fas fa-user prefix"></i>
-              <input
-                type="text"
-                name="from_name"
-                id="name"
-                class="form-control form-control-sm"
-                placeholder="Name"
-              />
-            </div>
-            <div class="md-form form-sm">
-              {" "}
-              <i class="fas fa-envelope prefix"></i>
-              <input
-                type="text"
-                name="from_email"
-                id="email"
-                class="form-control form-control-sm"
-                placeholder="Email"
-              />
-            </div>
-            <div class="md-form form-sm">
-              {" "}
-              <i class="fas fa-pencil-alt prefix"></i>
-              <textarea
-                type="text"
-                name="body"
-                id="body"
-                class="md-textarea form-control form-control-sm"
-                rows="10"
-                style={{ resize: "none" }}
-                placeholder="Message"
-              ></textarea>
-            </div>
-            <div class="text-center mt-4">
-              <button
-                type="submit"
-                class="btn blue-gradient"
-                style={{ borderRadius: "10em" }}
-              >
-                Send<i class="far fa-paper-planeml-1"></i>
-              </button>
-            </div>
-          </form>
+          <ContactForm />
         </section>
       </main>
     </React.Fragment>
-  )
-}
+  );
+};
 
-export default Intro
+export default Intro;
