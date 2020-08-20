@@ -37,7 +37,7 @@ const Navbar = ({ siteTitle }) => {
             <li class="nav-item">
               <a
                 class="btn btn-sm btn-light"
-                href="/register"
+                href="https://dashboard.kochii.app/register"
                 style={{ borderRadius: "10em" }}
               >
                 Register
@@ -46,7 +46,7 @@ const Navbar = ({ siteTitle }) => {
             <li class="nav-item">
               <a
                 class="btn btn-sm blue-gradient"
-                href="/login"
+                href="https://dashboard.kochii.app/login"
                 style={{ borderRadius: "10em" }}
               >
                 Login

@@ -1,7 +1,7 @@
 {
-  "name": "kochii-website",
+  "name": "kochii-site",
   "private": true,
-  "description": "kochii's main website",
+  "description": "kochii's static website",
   "version": "0.0.1",
   "author": "Jeffrey Ram Pineda",
   "dependencies": {

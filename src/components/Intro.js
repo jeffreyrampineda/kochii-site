@@ -20,7 +20,7 @@ const Intro = props => {
                   </h4>
                   <a
                     class="btn blue-gradient"
-                    href="/register"
+                    href="https://dashboard.kochii.app/register"
                     style={{ borderRadius: "10em" }}
                   >
                     Sign up

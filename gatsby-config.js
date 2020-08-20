@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Kochii`,
     description: `Kochii assists and encourages individuals for a manageable meal preparation lifestyle.`,
-    siteUrl: `https://www.kochii.app`,
+    siteUrl: `https://kochii.app`,
     author: `@jeffreyrampineda`,
   },
   plugins: [
