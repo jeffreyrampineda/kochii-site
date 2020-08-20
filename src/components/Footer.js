@@ -1,5 +1,5 @@
-import { Link } from "gatsby";
-import React from "react";
+import { Link } from "gatsby"
+import React from "react"
 
 const Footer = ({ siteTitle }) => {
   return (
@@ -13,13 +13,11 @@ const Footer = ({ siteTitle }) => {
               </h6>
             </div>
             <div class="col-md-6 col-lg-7 text-center text-md-right">
-              <a class="fb-ic ml-0" target="_blank">
-                <i class="fab fa-facebook-f white-text mr-4"> </i>
-              </a>
               <a
                 class="tw-ic"
                 href="https://twitter.com/KochiiApp/"
                 target="_blank"
+                rel="noreferrer"
               >
                 <i class="fab fa-twitter white-text mr-4"> </i>
               </a>
@@ -27,13 +25,15 @@ const Footer = ({ siteTitle }) => {
                 class="reddit-ic"
                 href="https://www.reddit.com/user/kochiiapp/"
                 target="_blank"
+                rel="noreferrer"
               >
                 <i class="fab fa-reddit-alien white-text mr-4"> </i>
               </a>
               <a
                 class="li-ic"
-                href="https://www.linkedin.com/in/jeffrey-ram-pineda-11587b112/"
+                href="https://www.linkedin.com/in/jeffreyrampineda/"
                 target="_blank"
+                rel="noreferrer"
               >
                 <i class="fab fa-linkedin-in white-text mr-4"> </i>
               </a>
@@ -41,6 +41,7 @@ const Footer = ({ siteTitle }) => {
                 class="ins-ic"
                 href="https://www.instagram.com/kochiiapp/"
                 target="_blank"
+                rel="noreferrer"
               >
                 <i class="fab fa-instagram white-text mr-lg-4"> </i>
               </a>
@@ -132,7 +133,7 @@ const Footer = ({ siteTitle }) => {
         Kochii &copy; 2020 All Rights Reserved
       </div>
     </footer>
-  );
-};
+  )
+}
 
-export default Footer;
+export default Footer

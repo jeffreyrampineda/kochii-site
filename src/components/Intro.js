@@ -1,7 +1,7 @@
-import React from "react";
-import ContactForm from "./ContactForm";
+import React from "react"
+import ContactForm from "./ContactForm"
 
-const Intro = (props) => {
+const Intro = props => {
   return (
     <React.Fragment>
       <header>
@@ -47,9 +47,8 @@ const Intro = (props) => {
                 <p class="grey-text">
                   Simplify your day to day life by letting Kochii assist you in
                   managing your pantry cabinets and cooking ingredients. The
-                  easy-to-use user interface allows even the busiest
-                  individuals to organize a part of their lifestyle entirely
-                  online.
+                  easy-to-use user interface allows even the busiest individuals
+                  to organize a part of their lifestyle entirely online.
                 </p>
               </div>
             </div>
@@ -176,7 +175,7 @@ const Intro = (props) => {
                     </div>
                     <div class="carousel-item">
                       <img
-                        alt="Close up picture of a Fan of Hundred Dollar Bills"
+                        alt="Close up view of a Fan of Hundred Dollar Bills"
                         class="d-block w-100"
                         src={"/viacheslav-bublyk-6WXbPWhT8c8-unsplash.jpg"}
                         loading="lazy"
@@ -210,7 +209,10 @@ const Intro = (props) => {
                 </div>
               </div>
               <div class="col-md-6">
-                <a href="" class="primary-text">
+                <a
+                  href="https://kochiiblog.wordpress.com/"
+                  class="primary-text"
+                >
                   <h6 class="pb-1">
                     <i class="fas fa-heart"></i>
                     <strong> Lifestyle </strong>
@@ -233,17 +235,14 @@ const Intro = (props) => {
                   repellendus et aut officiis debitis aut rerum.
                 </p>
                 <p>
-                  by{" "}
-                  <a>
-                    <strong>Jane Doe</strong>
-                  </a>
-                  , 01/01/2020
+                  by <strong>Jane Doe</strong>, 01/01/2020
                 </p>
                 <a
-                  href="https://kochiiblog.wordpress.com/"
-                  target="_blank"
                   class="btn blue-gradient btn-md"
                   style={{ borderRadius: "10em" }}
+                  href="https://kochiiblog.wordpress.com/"
+                  target="_blank"
+                  rel="noreferrer"
                 >
                   Read more
                 </a>
@@ -261,7 +260,7 @@ const Intro = (props) => {
         </section>
       </main>
     </React.Fragment>
-  );
-};
+  )
+}
 
-export default Intro;
+export default Intro

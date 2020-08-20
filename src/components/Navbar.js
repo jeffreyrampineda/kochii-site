@@ -1,6 +1,6 @@
-import { Link } from "gatsby";
-import PropTypes from "prop-types";
-import React from "react";
+import { Link } from "gatsby"
+import PropTypes from "prop-types"
+import React from "react"
 
 const Navbar = ({ siteTitle }) => {
   return (
@@ -53,15 +53,11 @@ const Navbar = ({ siteTitle }) => {
               </a>
             </li>
             <li class="nav-item">
-              <a href="#" class="nav-link" target="_blank">
-                <i class="fab fa-facebook-f"></i>
-              </a>
-            </li>
-            <li class="nav-item">
               <a
                 href="https://twitter.com/KochiiApp/"
                 class="nav-link"
                 target="_blank"
+                rel="noreferrer"
               >
                 <i class="fab fa-twitter"></i>
               </a>
@@ -71,6 +67,7 @@ const Navbar = ({ siteTitle }) => {
                 href="https://github.com/jeffreyrampineda/kochii"
                 class="nav-link"
                 target="_blank"
+                rel="noreferrer"
               >
                 <i class="fab fa-github"></i>
               </a>
@@ -79,15 +76,15 @@ const Navbar = ({ siteTitle }) => {
         </div>
       </div>
     </nav>
-  );
-};
+  )
+}
 
 Navbar.propTypes = {
   siteTitle: PropTypes.string,
-};
+}
 
 Navbar.defaultProps = {
   siteTitle: ``,
-};
+}
 
-export default Navbar;
+export default Navbar

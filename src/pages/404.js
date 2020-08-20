@@ -1,7 +1,7 @@
-import React from "react";
-import Message from "../components/Message";
-import Layout from "../components/Layout";
-import SEO from "../components/SEO";
+import React from "react"
+import Message from "../components/Message"
+import Layout from "../components/Layout"
+import SEO from "../components/SEO"
 
 const NotFoundPage = () => (
   <Layout>
@@ -12,6 +12,6 @@ const NotFoundPage = () => (
       description="Sorry but you are lost, requested page not found!"
     />
   </Layout>
-);
+)
 
-export default NotFoundPage;
+export default NotFoundPage

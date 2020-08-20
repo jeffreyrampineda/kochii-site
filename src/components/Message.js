@@ -1,4 +1,4 @@
-import React from "react";
+import React from "react"
 
 const Message = ({ title = "", subtitle = "", description = "" }) => {
   return (
@@ -23,7 +23,7 @@ const Message = ({ title = "", subtitle = "", description = "" }) => {
         </div>
       </div>
     </header>
-  );
-};
+  )
+}
 
-export default Message;
+export default Message

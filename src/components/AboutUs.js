@@ -1,7 +1,7 @@
-import React from "react";
-import ContactForm from "./ContactForm";
+import React from "react"
+import ContactForm from "./ContactForm"
 
-const AboutUs = (props) => {
+const AboutUs = props => {
   return (
     <React.Fragment>
       <div class="jumbotron blue-gradient">
@@ -52,7 +52,7 @@ const AboutUs = (props) => {
         </div>
       </main>
     </React.Fragment>
-  );
-};
+  )
+}
 
-export default AboutUs;
+export default AboutUs

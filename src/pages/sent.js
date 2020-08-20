@@ -1,7 +1,7 @@
-import React from "react";
-import Message from "../components/Message";
-import Layout from "../components/Layout";
-import SEO from "../components/SEO";
+import React from "react"
+import Message from "../components/Message"
+import Layout from "../components/Layout"
+import SEO from "../components/SEO"
 
 const AboutUsPage = () => (
   <Layout>
@@ -14,6 +14,6 @@ const AboutUsPage = () => (
       description="Your message was sent successfully"
     />
   </Layout>
-);
+)
 
-export default AboutUsPage;
+export default AboutUsPage

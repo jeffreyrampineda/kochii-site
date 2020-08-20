@@ -1,4 +1,4 @@
-import React from "react";
+import React from "react"
 
 const ContactForm = () => {
   return (
@@ -48,7 +48,7 @@ const ContactForm = () => {
         </button>
       </div>
     </form>
-  );
-};
+  )
+}
 
-export default ContactForm;
+export default ContactForm
